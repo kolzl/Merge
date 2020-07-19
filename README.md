@@ -4,7 +4,7 @@ dass der zweite Wert immer der Höhere ist.
 
 Ausführen der Datei:
 Im target-Ordner die jar Datei ausführen. (Mit "java -jar MergeTuples-0.0.1-SNAPSHOT.jar").
-Darauf achten, dass im Targetordner eine Tuple.txt Datei liegt.
+Darauf achten, dass im Targetordner eine Tuples.txt Datei liegt.
 Die jar kann mit mvn package neu packetiert werden, wenn das gewünscht ist. Dabei aber bitte drauf achten,
 dass Tuple.txt vorhanden ist.
 
@@ -21,7 +21,6 @@ Auf Leerzeichen oder sonstiges wird nicht überprüft.
 Jeder Tupel muss in einer neuen Zeile stehen.
 
 ----------------------------------------------------------------------------------------------------------
-
 Wie ist die Laufzeit Ihres Programms ?
 O(n^2)
 
@@ -33,3 +32,6 @@ zwei Listen gehalten werden müssen.
 Wie verhält sich der Speicherverbrauch ihres Programms ?
 Wird das Programm mit sehr hohen Datenmengen ausgeführt muss man damit rechnen, dass der Speicher vollläuft, da zwei
 Listen im Speicher gehalten werden müssen und es sein kann, dass dieser ausläuft.
+
+Bearbeitungsdauer:
+6 Stunden
